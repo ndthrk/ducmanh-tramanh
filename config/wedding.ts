@@ -26,11 +26,11 @@ export const weddingConfig = {
     },
   },
   event: {
-    date: '2026-10-24T17:30:00+07:00',
+    date: '2026-10-24T16:30:00+07:00',
     displayDate: '24 · 10 · 2026',
     weekday: 'Thứ Bảy',
-    receptionTime: '16:30',
-    ceremonyTime: '17:30',
+    receptionTime: '16:00',
+    ceremonyTime: '16:30',
     lunarDate: '15/09 năm Bính Ngọ âm lịch',
     venue: 'Tổ 25, Phương Châu',
     address: 'Tổ 25, Tổ dân phố Phương Châu, phường Nông Trang, tỉnh Phú Thọ',
@@ -44,7 +44,7 @@ export const weddingConfig = {
     thanks: 'Sự hiện diện của bạn là món quà quý giá nhất trong ngày vui của chúng mình.',
   },
   timeline: [
-    { time: '17:00', label: 'Khai tiệc' },
+    { time: '16:30', label: 'Khai tiệc' },
     { time: '20:00', label: 'Kết thúc tiệc' },
   ],
   dressCode: [
