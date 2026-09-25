@@ -191,7 +191,7 @@ blockquote { margin: 0 auto 28px; font-family: var(--font-serif), serif; font-si
 .gift-display.is-open .heart-3 { --heart-x: -145px; --heart-y: 12px; animation-delay: .82s; }
 .gift-display.is-open .heart-4 { --heart-x: 138px; --heart-y: 8px; animation-delay: .92s; }
 .gift-display.is-open .heart-5 { --heart-x: 0px; --heart-y: -145px; animation-delay: .72s; }
-.gift-hint { align-self: end; margin: 0 !important; color: #66766e !important; font-size: 12px; letter-spacing: .06em; }
+.gift-hint { align-self: end; margin: 0 !important; color: #66766e !important; font-size: clamp(18px, 3vw, 26px); letter-spacing: .02em; }
 .gift-modal { position: fixed; z-index: 220; inset: 0; display: grid; place-items: center; padding: 24px; background: rgba(3,21,15,.86); backdrop-filter: blur(12px); animation: gift-modal-in .35s ease both; }
 .gift-modal-card { position: relative; width: min(100%, 470px); max-height: calc(100dvh - 48px); overflow: auto; padding: 40px 36px 32px; border: 1px solid rgba(190,158,82,.68); border-radius: 18px; color: var(--ink); background: linear-gradient(145deg, #fffaf0, #eee3ca); box-shadow: 0 28px 90px rgba(0,0,0,.42); text-align: center; animation: gift-card-in .5s cubic-bezier(.18,.78,.22,1) both; }
 .gift-modal-card::before { content: ''; position: absolute; inset: 8px; border: 1px solid rgba(184,147,67,.25); border-radius: 11px; pointer-events: none; }

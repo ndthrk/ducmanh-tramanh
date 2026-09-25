@@ -44,15 +44,13 @@ export const weddingConfig = {
     thanks: 'Sự hiện diện của bạn là món quà quý giá nhất trong ngày vui của chúng mình.',
   },
   timeline: [
-    { time: '16:00', label: 'Đón khách' },
-    { time: '17:00', label: 'Chụp ảnh check-in' },
-    { time: '17:30', label: 'Khai tiệc' },
-    { time: '21:00', label: 'Kết thúc tiệc' },
+    { time: '17:00', label: 'Khai tiệc' },
+    { time: '20:00', label: 'Kết thúc tiệc' },
   ],
   dressCode: [
     { label: 'Trắng', color: '#ffffff' },
     { label: 'Đen', color: '#15251f' },
-    { label: 'Xanh khói', color: '#a9b8c8' },
+    { label: 'Xanh', color: '#a9b8c8' },
   ],
   music: {
     src: '/assets/music/wedding-song.mp3',
