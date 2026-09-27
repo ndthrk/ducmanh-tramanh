@@ -7,10 +7,11 @@ const script = Dancing_Script({ variable: '--font-script', subsets: ['latin', 'v
 const serif = Lora({ variable: '--font-serif', subsets: ['latin', 'vietnamese'], weight: ['400', '500', '600'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://duc-manh-tram-anh-24102026.toasty-clove-5409.chatgpt.site'),
+  metadataBase: new URL('https://ducmanh-tramanh.vercel.app'),
   title: 'Đức Mạnh & Trâm Anh — 24.10.2026',
   description: 'Trân trọng kính mời bạn đến chung vui trong lễ thành hôn của Đức Mạnh và Trâm Anh.',
   openGraph: {
+    url: 'https://ducmanh-tramanh.vercel.app/',
     title: 'Đức Mạnh & Trâm Anh',
     description: 'Trân trọng kính mời bạn đến chung vui ngày 24.10.2026.',
     type: 'website',
