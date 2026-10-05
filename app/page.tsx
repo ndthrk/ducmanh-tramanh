@@ -3,6 +3,7 @@
 import { CSSProperties, MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { weddingConfig as config } from '@/config/wedding';
+import { RsvpForm } from '@/src/components/rsvp-form';
 
 function useCountdown(target: string) {
   const [distance, setDistance] = useState<number | null>(null);
@@ -407,6 +408,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <RsvpForm onInteract={() => setAutoScrollPlaying(false)} />
 
         <footer>
           <p className="double-happiness">囍</p>
